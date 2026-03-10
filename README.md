@@ -11,5 +11,3 @@ Actualmente estoy trabajando en:
 * **Lenguaje:** Python 🐍
 * **Editor:** Visual Studio Code
 
----
-*Hecho con disciplina para mejorar mi lógica de programación.*

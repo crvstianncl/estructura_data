@@ -14,14 +14,14 @@ class ColaImpresion:
                 self.lista.insert(0, nuevo_perfil) #a inicio
         
             else:
-                self.lista.append(nuevo_perfil) #a finalD
+                self.lista.append(nuevo_perfil) #a final
         else: 
             print("Error por memoria llena")
         
     def imprimir_documento(self):
         if len(self.lista)>0:
             doc_actual = self.lista.pop(0)
-            print(f" Imprimiendo documento: {doc_actual['nombre']}")
+            print(f" Imprimiendo documento: {doc_actual['nombre']}") #solo extraer el dato "nombre" de la variable
             return doc_actual
         else:
             print("no hay perfil agregado (esta vacío)")

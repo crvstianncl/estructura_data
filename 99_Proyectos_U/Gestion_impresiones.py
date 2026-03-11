@@ -29,3 +29,5 @@ class ColaImpresion:
 mi_cola = ColaImpresion(3)
 mi_cola.agregar_documento("cristian","19",True)
 mi_cola.imprimir_documento()
+
+#falta funcion ver_estado(), comentarios notacion Big-o, Implementar TAD
